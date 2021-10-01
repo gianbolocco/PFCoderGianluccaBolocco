@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "zapa1 zapa2 zapa3"
+      "zapa4 zapa5 zapa6"
+      "zapa7 zapa8 zapa9";
+
+      grid-gap: 20px;
+  }
+  
+  .zapa1 { grid-area: zapa1; }
+  
+  .zapa2 { grid-area: zapa2; }
+  
+  .zapa3 { grid-area: zapa3; }
+  
+  .zapa4 { grid-area: zapa4; }
+  
+  .zapa5 { grid-area: zapa5; }
+  
+  .zapa6 { grid-area: zapa6; }
+  
+  .zapa7 { grid-area: zapa7; }
+  
+  .zapa8 { grid-area: zapa8; }
+  
+  .zapa9 { grid-area: zapa9; }
+  

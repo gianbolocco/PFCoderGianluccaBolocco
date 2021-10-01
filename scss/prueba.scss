@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+$roboto: 'Roboto', sans-serif; 
+
+@import "header";
+@import "main";
+@import "footer";
+
+@import "sucursales";
+@import "nosotros";
+@import "contacto";
+
+@import "elemento";

@@ -1,0 +1,15 @@
+.mapa{
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        margin: 30px;
+    }
+    iframe{
+        margin-bottom: 30px;
+        width: 70%;
+    }
+
+}

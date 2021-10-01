@@ -1,0 +1,88 @@
+$fthrcolor: #1a1c1d;
+
+@media only screen and (max-width: 800px){
+    header{
+        background-color: $fthrcolor;
+        nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                width: 30%;
+                margin-left: 10px;
+            }
+            ul{
+                margin: 10px;
+                padding: 0px;
+                display: flex;
+                flex-direction: column-reverse;
+                li{
+                    list-style: none;
+                    margin: 20px;
+                    text-align: center;
+                    a{
+                        text-decoration: none;
+                        font-size: 20x;
+                        color: white;
+                        font-family: $roboto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 800px){
+    header{
+        background-color: $fthrcolor;
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            height: 15vh;
+            img{
+                width: 100px;
+            }
+            ul{
+                margin: 0px;
+                padding: 0px;
+                display: flex;
+                flex-direction: row-reverse;
+                li{
+                    list-style: none;
+                    margin: 20px;
+                    a{
+                        position: relative;
+                        text-decoration: none;
+                        font-size: 22px;
+                        color: white;
+                        font-family: $roboto;
+    
+    
+                    }
+                    a::before {
+                            content: '';
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 3px;
+                            background: linear-gradient(to right,rgb(255, 92, 92),rgb(216, 16, 16),rgb(133, 12, 12));
+                            z-index: 1;
+                            transform: scaleX(0);
+                            transform-origin: left;
+                            transition: transform 0.5s ease-in-out;
+                    }
+    
+                    a:hover::before {
+                        transform: scaleX(1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+

@@ -14,7 +14,8 @@ $maincolor: #EDEDED;
             h1{
                 padding: 10px;
                 font-size: 30px;
-                color: rgb(255, 255, 255);                }
+                color: rgb(255, 255, 255);
+            }
     
         }
         
@@ -22,8 +23,17 @@ $maincolor: #EDEDED;
             display: flex;
             justify-content: center;
             flex-direction: column;
-            text-align: center;
+            align-items: center;
             padding: 25px;
+            h2{
+                text-align: center;
+                border-radius: 5px;
+                padding: 10px;
+                color: white;
+                background-color: #1a1c1d;
+                width: 30vh;
+                margin: 30px 30px 0px 30px;
+            }
             div{
             display: flex;
             flex-direction: column;
@@ -44,13 +54,17 @@ $maincolor: #EDEDED;
 
         }
         .algunos-modelos{
-            .subtitulo{                    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .subtitulo{
                 text-align: center;
-                color: rgb(0, 0, 0);
-                font-family: 'Roboto', sans-serif;
-                font-weight: 400;
-                font-size: 30px;
-                margin: 45px;                
+                border-radius: 5px;
+                padding: 10px;
+                color: white;
+                background-color: #1a1c1d;
+                width: 30vh;
+                margin: 30px;            
             }
             .caja{
                 -webkit-box-shadow: inset 0px 0px 26px -4px rgba(0,0,0,1);
@@ -126,26 +140,39 @@ $maincolor: #EDEDED;
             display: flex;
             background-color: $maincolor;
             flex-direction: column;
-            text-align: center;
-            padding: 25px;
+            align-items: center;
+
+            h2{
+                text-align: center;
+                border-radius: 5px;
+                padding: 10px;
+                color: white;
+                background-color: #1a1c1d;
+                width: 30vh;
+                margin: 30px 30px 0px 30px;
+            }
             div{
                 display: flex;
                 justify-content: center;
                img{
                     height: 50px;
-                    margin: 30px;
+                    margin:30px;
                 } 
             }
         }
     
         .algunos-modelos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             .subtitulo{
                 text-align: center;
-                color: rgb(0, 0, 0);
-                font-family: 'Roboto', sans-serif;
-                font-weight: 400;
-                font-size: 30px;
-                margin: 45px;
+                border-radius: 5px;
+                padding: 10px;
+                color: white;
+                background-color: #1a1c1d;
+                width: 30vh;
+                margin: 30px;            
             }
             .caja{
                 -webkit-box-shadow: inset 0px 0px 26px -4px rgba(0,0,0,1);

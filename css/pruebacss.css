@@ -84,8 +84,16 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
     padding: 25px; }
+    .index .marcas-logos h2 {
+      text-align: center;
+      border-radius: 5px;
+      padding: 10px;
+      color: white;
+      background-color: #1a1c1d;
+      width: 30vh;
+      margin: 30px 30px 0px 30px; }
     .index .marcas-logos div {
       display: flex;
       flex-direction: column;
@@ -100,51 +108,56 @@
         -moz-box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.74);
         box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.74);
         border-radius: 3px; }
-  .index .algunos-modelos .subtitulo {
-    text-align: center;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    margin: 45px; }
-  .index .algunos-modelos .caja {
-    -webkit-box-shadow: inset 0px 0px 26px -4px black;
-    -moz-box-shadow: inset 0px 0px 26px -4px black;
-    box-shadow: inset 0px 0px 26px -4px black;
-    width: 90%;
-    margin: auto;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    background-color: #EDEDED;
+  .index .algunos-modelos {
     display: flex;
-    justify-content: center;
-    flex-direction: column; }
-    .index .algunos-modelos .caja .subcaja {
+    flex-direction: column;
+    align-items: center; }
+    .index .algunos-modelos .subtitulo {
+      text-align: center;
+      border-radius: 5px;
+      padding: 10px;
+      color: white;
+      background-color: #1a1c1d;
+      width: 30vh;
+      margin: 30px; }
+    .index .algunos-modelos .caja {
+      -webkit-box-shadow: inset 0px 0px 26px -4px black;
+      -moz-box-shadow: inset 0px 0px 26px -4px black;
+      box-shadow: inset 0px 0px 26px -4px black;
+      width: 90%;
+      margin: auto;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      background-color: #EDEDED;
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; }
-      .index .algunos-modelos .caja .subcaja .cajazapa {
-        -webkit-box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.74);
-        -moz-box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.74);
-        box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.74);
-        border-radius: 3px;
-        background: white;
+      justify-content: center;
+      flex-direction: column; }
+      .index .algunos-modelos .caja .subcaja {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        margin: 20px;
-        height: 100%; }
-        .index .algunos-modelos .caja .subcaja .cajazapa .subzapa {
+        justify-content: center; }
+        .index .algunos-modelos .caja .subcaja .cajazapa {
+          -webkit-box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.74);
+          -moz-box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.74);
+          box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.74);
+          border-radius: 3px;
+          background: white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
           margin: 20px;
-          font-family: 'Roboto', sans-serif;
-          font-size: 20px; }
-        .index .algunos-modelos .caja .subcaja .cajazapa .imgzapa {
-          width: 80%;
-          height: auto;
-          background: none;
-          height: 100%; } }
+          height: 100%; }
+          .index .algunos-modelos .caja .subcaja .cajazapa .subzapa {
+            margin: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px; }
+          .index .algunos-modelos .caja .subcaja .cajazapa .imgzapa {
+            width: 80%;
+            height: auto;
+            background: none;
+            height: 100%; } }
 
 @media only screen and (min-width: 800px) {
   main .contenedor-h1 {
@@ -164,63 +177,75 @@
     display: flex;
     background-color: #EDEDED;
     flex-direction: column;
-    text-align: center;
-    padding: 25px; }
+    align-items: center; }
+    main .marcas-logos h2 {
+      text-align: center;
+      border-radius: 5px;
+      padding: 10px;
+      color: white;
+      background-color: #1a1c1d;
+      width: 30vh;
+      margin: 30px 30px 0px 30px; }
     main .marcas-logos div {
       display: flex;
       justify-content: center; }
       main .marcas-logos div img {
         height: 50px;
         margin: 30px; }
-  main .algunos-modelos .subtitulo {
-    text-align: center;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    margin: 45px; }
-  main .algunos-modelos .caja {
-    -webkit-box-shadow: inset 0px 0px 26px -4px black;
-    -moz-box-shadow: inset 0px 0px 26px -4px black;
-    box-shadow: inset 0px 0px 26px -4px black;
-    width: 90%;
-    margin: auto;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    background-color: #EDEDED;
+  main .algunos-modelos {
     display: flex;
-    justify-content: center; }
-    main .algunos-modelos .caja .subcaja {
+    flex-direction: column;
+    align-items: center; }
+    main .algunos-modelos .subtitulo {
+      text-align: center;
+      border-radius: 5px;
+      padding: 10px;
+      color: white;
+      background-color: #1a1c1d;
+      width: 30vh;
+      margin: 30px; }
+    main .algunos-modelos .caja {
+      -webkit-box-shadow: inset 0px 0px 26px -4px black;
+      -moz-box-shadow: inset 0px 0px 26px -4px black;
+      box-shadow: inset 0px 0px 26px -4px black;
+      width: 90%;
+      margin: auto;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      background-color: #EDEDED;
       display: flex;
-      flex-direction: column;
-      align-items: center;
       justify-content: center; }
-      main .algunos-modelos .caja .subcaja .cajazapa {
-        -webkit-box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.74);
-        -moz-box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.74);
-        box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.74);
-        border-radius: 3px;
-        background: white;
+      main .algunos-modelos .caja .subcaja {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        margin: 20px;
-        height: 100%; }
-        main .algunos-modelos .caja .subcaja .cajazapa .subzapa {
+        justify-content: center; }
+        main .algunos-modelos .caja .subcaja .cajazapa {
+          -webkit-box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.74);
+          -moz-box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.74);
+          box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.74);
+          border-radius: 3px;
+          background: white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
           margin: 20px;
-          font-family: 'Roboto', sans-serif;
-          font-size: 20px;
-          color: black; }
-        main .algunos-modelos .caja .subcaja .cajazapa .imgzapa {
-          width: 80%;
-          height: auto;
-          background: none;
           height: 100%; }
-      main .algunos-modelos .caja .subcaja .cajazapa:hover {
-        background-color: #3b3b3b; }
-        main .algunos-modelos .caja .subcaja .cajazapa:hover .subzapa {
-          color: white; } }
+          main .algunos-modelos .caja .subcaja .cajazapa .subzapa {
+            margin: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            color: black; }
+          main .algunos-modelos .caja .subcaja .cajazapa .imgzapa {
+            width: 80%;
+            height: auto;
+            background: none;
+            height: 100%; }
+        main .algunos-modelos .caja .subcaja .cajazapa:hover {
+          background-color: #3b3b3b; }
+          main .algunos-modelos .caja .subcaja .cajazapa:hover .subzapa {
+            color: white; } }
 
 @media only screen and (max-width: 800px) {
   footer {
@@ -417,58 +442,68 @@
           background-color: #1f1fb1; } }
 
 .productos {
-  display: flex; }
-  .productos .imagen-texto {
-    -webkit-box-shadow: 2px 0px 26px 5px rgba(0, 0, 0, 0.82);
-    -moz-box-shadow: 2px 0px 26px 5px rgba(0, 0, 0, 0.82);
-    box-shadow: 2px 0px 26px 5px rgba(0, 0, 0, 0.82);
-    margin: 20px;
-    border-radius: 20px; }
-    .productos .imagen-texto .contenedor-imagen {
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      .productos .imagen-texto .contenedor-imagen img {
-        width: 85%; }
-    .productos .imagen-texto .contenedor-texto {
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      background-color: #dbdbdb;
-      border-radius: 0px 0px 20px 20px; }
-      .productos .imagen-texto .contenedor-texto ul {
-        list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .productos .contenedor {
+    display: flex; }
+    .productos .contenedor .imagen-texto {
+      -webkit-box-shadow: 2px 0px 26px 5px rgba(0, 0, 0, 0.82);
+      -moz-box-shadow: 2px 0px 26px 5px rgba(0, 0, 0, 0.82);
+      box-shadow: 2px 0px 26px 5px rgba(0, 0, 0, 0.82);
+      margin: 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      color: black; }
+      .productos .contenedor .imagen-texto .contenedor-imagen {
         display: flex;
-        flex-direction: column; }
-        .productos .imagen-texto .contenedor-texto ul .modelo {
-          text-align: center;
-          font-size: 40px;
-          padding: 10px; }
-        .productos .imagen-texto .contenedor-texto ul .brand {
+        justify-content: center;
+        align-items: center; }
+        .productos .contenedor .imagen-texto .contenedor-imagen img {
+          width: 65%; }
+      .productos .contenedor .imagen-texto .contenedor-texto {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        background-color: #dbdbdb;
+        border-radius: 0px 0px 20px 20px; }
+        .productos .contenedor .imagen-texto .contenedor-texto ul {
+          list-style: none;
           display: flex;
-          align-items: center;
-          margin: 10px;
-          font-size: 30px; }
-          .productos .imagen-texto .contenedor-texto ul .brand img {
-            height: 20px; }
-        .productos .imagen-texto .contenedor-texto ul .precio {
-          font-size: 30px;
-          margin: 10px; }
-        .productos .imagen-texto .contenedor-texto ul .talles {
-          font-size: 30px;
-          display: flex;
-          margin: 10px; }
-          .productos .imagen-texto .contenedor-texto ul .talles ul {
-            display: flex; }
-            .productos .imagen-texto .contenedor-texto ul .talles ul li {
-              padding: 5px;
-              border-radius: 2px;
-              background-color: gray;
-              margin: 5px; }
-        .productos .imagen-texto .contenedor-texto ul .boton-comprar {
-          text-align: center;
-          padding: 10px;
-          font-size: 30px;
-          background-color: #414bcf;
-          color: white;
-          border-radius: 10px; }
+          flex-direction: column; }
+          .productos .contenedor .imagen-texto .contenedor-texto ul .modelo {
+            text-align: center;
+            font-size: 25px;
+            padding: 10px; }
+          .productos .contenedor .imagen-texto .contenedor-texto ul .brand {
+            display: flex;
+            align-items: center;
+            margin: 10px;
+            font-size: 18px; }
+            .productos .contenedor .imagen-texto .contenedor-texto ul .brand img {
+              height: 15px; }
+          .productos .contenedor .imagen-texto .contenedor-texto ul .precio {
+            font-size: 18px;
+            margin: 10px; }
+          .productos .contenedor .imagen-texto .contenedor-texto ul .talles {
+            font-size: 18px;
+            display: flex;
+            margin: 10px; }
+            .productos .contenedor .imagen-texto .contenedor-texto ul .talles ul {
+              display: flex; }
+              .productos .contenedor .imagen-texto .contenedor-texto ul .talles ul li {
+                padding: 5px;
+                border-radius: 2px;
+                background-color: gray;
+                margin: 5px; }
+          .productos .contenedor .imagen-texto .contenedor-texto ul .boton-comprar {
+            text-align: center;
+            padding: 10px;
+            font-size: 25px;
+            background-color: #414bcf;
+            color: white;
+            border-radius: 10px;
+            text-decoration: none; }
+    .productos .contenedor .imagen-texto:hover {
+      transform: scale(1.007); }

@@ -1,32 +1,75 @@
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "zapa1 zapa2 zapa3"
-      "zapa4 zapa5 zapa6"
-      "zapa7 zapa8 zapa9";
+.productos{
+  display: flex;
+  .imagen-texto{
+      -webkit-box-shadow: 2px 0px 26px 5px rgba(0,0,0,0.82);
+      -moz-box-shadow: 2px 0px 26px 5px rgba(0,0,0,0.82);
+      box-shadow: 2px 0px 26px 5px rgba(0,0,0,0.82);
+      margin: 20px;
+      border-radius: 20px;
+      
+      .contenedor-imagen{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img{
+              width: 85%;
+          }
+      }
 
-      grid-gap: 20px;
+      .contenedor-texto{
+
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+
+          ul{
+              list-style: none;
+              display: flex;
+              flex-direction: column;
+
+              .modelo{
+                  text-align: center;
+                  font-size: 40px;
+                  padding: 10px;
+              }
+              .brand{
+                  display: flex;
+                  align-items: center;
+                  margin: 10px;
+                  font-size: 30px;
+                  img{
+                      height: 20px;
+                  }
+              }
+              .precio{
+                  font-size: 30px;
+                  margin: 10px;
+              }
+              .talles{
+                  font-size: 30px;
+                  display: flex;
+                  margin: 10px;
+                  ul{
+                      display: flex;
+                      li{
+                          padding: 5px;
+                          border-radius: 2px;
+                          background-color: gray;
+                          margin: 5px;
+                      }
+                  }
+              }
+              .boton-comprar{
+                  text-align: center;
+                  padding: 10px;
+                  font-size: 30px;
+                  background-color: rgb(65, 75, 207);
+                  color: white;
+                  border-radius: 10px;
+              }
+          }
+          background-color: rgb(219, 219, 219);
+          border-radius: 0px 0px 20px 20px;
+      }    
   }
-  
-  .zapa1 { grid-area: zapa1; }
-  
-  .zapa2 { grid-area: zapa2; }
-  
-  .zapa3 { grid-area: zapa3; }
-  
-  .zapa4 { grid-area: zapa4; }
-  
-  .zapa5 { grid-area: zapa5; }
-  
-  .zapa6 { grid-area: zapa6; }
-  
-  .zapa7 { grid-area: zapa7; }
-  
-  .zapa8 { grid-area: zapa8; }
-  
-  .zapa9 { grid-area: zapa9; }
-  
+}

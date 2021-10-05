@@ -191,7 +191,7 @@
       justify-content: center; }
       main .marcas-logos div img {
         height: 50px;
-        margin: 30px; }
+        margin: 20px; }
   main .algunos-modelos {
     display: flex;
     flex-direction: column;
@@ -441,6 +441,17 @@
         .elemento .imagen-texto .contenedor-texto ul .boton-comprar:hover {
           background-color: #1f1fb1; } }
 
+h2 {
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  background-color: #1a1c1d;
+  width: 50vh;
+  margin: 30px;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif; }
+
 .productos {
   display: flex;
   flex-direction: column;
@@ -449,11 +460,8 @@
   .productos .contenedor {
     display: flex; }
     .productos .contenedor .imagen-texto {
-      -webkit-box-shadow: 2px 0px 26px 5px rgba(0, 0, 0, 0.82);
-      -moz-box-shadow: 2px 0px 26px 5px rgba(0, 0, 0, 0.82);
-      box-shadow: 2px 0px 26px 5px rgba(0, 0, 0, 0.82);
+      border: 1px solid #a7a7a7;
       margin: 20px;
-      border-radius: 20px;
       text-decoration: none;
       color: black; }
       .productos .contenedor .imagen-texto .contenedor-imagen {
@@ -466,8 +474,7 @@
         padding: 20px;
         display: flex;
         flex-direction: column;
-        background-color: #dbdbdb;
-        border-radius: 0px 0px 20px 20px; }
+        background-color: #dbdbdb; }
         .productos .contenedor .imagen-texto .contenedor-texto ul {
           list-style: none;
           display: flex;

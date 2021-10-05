@@ -1,6 +1,14 @@
 
 h2{
-
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  background-color: #1a1c1d;
+  width: 50vh;
+  margin: 30px;
+  font-size: 40px;
+  font-family: $roboto;
 }
 .productos{
   display: flex;
@@ -11,13 +19,10 @@ h2{
   .contenedor{
     display: flex;
       .imagen-texto{
-      -webkit-box-shadow: 2px 0px 26px 5px rgba(0,0,0,0.82);
-      -moz-box-shadow: 2px 0px 26px 5px rgba(0,0,0,0.82);
-      box-shadow: 2px 0px 26px 5px rgba(0,0,0,0.82);
-      margin: 20px;
-      border-radius: 20px;
-      text-decoration: none;
-      color: black;
+        border: 1px solid #a7a7a7;
+        margin: 20px;
+        text-decoration: none;
+        color: black;
       .contenedor-imagen{
           display: flex;
           justify-content: center;
@@ -81,7 +86,7 @@ h2{
               }
           }
           background-color: rgb(219, 219, 219);
-          border-radius: 0px 0px 20px 20px;
+          
       } 
     }
     .imagen-texto:hover{

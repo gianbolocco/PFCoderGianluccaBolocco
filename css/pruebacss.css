@@ -441,81 +441,73 @@
         .elemento .imagen-texto .contenedor-texto ul .boton-comprar:hover {
           background-color: #1f1fb1; } }
 
-.productos .head {
-  width: 100%; }
-
-.productos h2 {
-  text-align: center;
-  border-radius: 5px;
-  padding: 10px;
-  color: white;
-  background-color: #1a1c1d;
-  width: 50vh;
-  margin: 30px;
-  font-size: 40px;
-  font-family: "Roboto", sans-serif; }
-
-.productos .marca2 {
-  background-color: #ececec; }
-
-.productos .marcas {
+.productos {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-  .productos .marcas .logo {
-    width: 25vh;
-    margin: 50px 50px 30px 50px; }
-  .productos .marcas .contenedor {
+  .productos .head {
+    width: 100%; }
+  .productos h2 {
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: #1a1c1d;
+    width: 50vh;
+    margin: 30px;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif; }
+  .productos .contenedor {
     display: flex;
     padding-bottom: 20px; }
-    .productos .marcas .contenedor .imagen-texto {
+    .productos .contenedor .imagen-texto {
       border: 1px solid #a7a7a7;
       margin: 20px;
       text-decoration: none;
       color: black; }
-      .productos .marcas .contenedor .imagen-texto .contenedor-imagen {
+      .productos .contenedor .imagen-texto .contenedor-imagen {
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: white; }
-        .productos .marcas .contenedor .imagen-texto .contenedor-imagen img {
+        .productos .contenedor .imagen-texto .contenedor-imagen img {
           width: 65%; }
-      .productos .marcas .contenedor .imagen-texto .contenedor-texto {
+      .productos .contenedor .imagen-texto .contenedor-texto {
         padding: 20px;
         display: flex;
         flex-direction: column;
         background-color: #dbdbdb; }
-        .productos .marcas .contenedor .imagen-texto .contenedor-texto ul {
+        .productos .contenedor .imagen-texto .contenedor-texto ul {
           list-style: none;
           display: flex;
           flex-direction: column; }
-          .productos .marcas .contenedor .imagen-texto .contenedor-texto ul .modelo {
+          .productos .contenedor .imagen-texto .contenedor-texto ul .modelo {
             text-align: center;
             font-size: 25px;
             padding: 10px; }
-          .productos .marcas .contenedor .imagen-texto .contenedor-texto ul .brand {
+          .productos .contenedor .imagen-texto .contenedor-texto ul .brand {
             display: flex;
             align-items: center;
             margin: 10px;
             font-size: 18px; }
-            .productos .marcas .contenedor .imagen-texto .contenedor-texto ul .brand img {
+            .productos .contenedor .imagen-texto .contenedor-texto ul .brand img {
               height: 15px; }
-          .productos .marcas .contenedor .imagen-texto .contenedor-texto ul .precio {
+          .productos .contenedor .imagen-texto .contenedor-texto ul .precio {
             font-size: 18px;
             margin: 10px; }
-          .productos .marcas .contenedor .imagen-texto .contenedor-texto ul .talles {
+          .productos .contenedor .imagen-texto .contenedor-texto ul .talles {
             font-size: 18px;
             display: flex;
             margin: 10px; }
-            .productos .marcas .contenedor .imagen-texto .contenedor-texto ul .talles ul {
+            .productos .contenedor .imagen-texto .contenedor-texto ul .talles ul {
               display: flex; }
-              .productos .marcas .contenedor .imagen-texto .contenedor-texto ul .talles ul li {
+              .productos .contenedor .imagen-texto .contenedor-texto ul .talles ul li {
                 padding: 5px;
                 border-radius: 2px;
                 background-color: gray;
                 margin: 5px; }
-          .productos .marcas .contenedor .imagen-texto .contenedor-texto ul .boton-comprar {
+          .productos .contenedor .imagen-texto .contenedor-texto ul .boton-comprar {
             text-align: center;
             padding: 10px;
             font-size: 25px;
@@ -523,5 +515,5 @@
             color: white;
             border-radius: 10px;
             text-decoration: none; }
-    .productos .marcas .contenedor .imagen-texto:hover {
+    .productos .contenedor .imagen-texto:hover {
       transform: scale(1.007); }

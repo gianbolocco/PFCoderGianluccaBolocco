@@ -29,7 +29,7 @@
       font-family: $roboto;
       color: white;
       padding: 20px;
-      background-color: black;
+      background-color: #1a1c1d;
       border-radius: 5px;
       font-size: 30px;
       text-align: center;
@@ -101,10 +101,13 @@
                     border-radius: 10px;
                     text-decoration: none;
                 }
-            }
-            background-color: rgb(219, 219, 219);
-        } 
+          }
+            background-color: rgb(219, 219, 219);    
+        }
       }
+    }
+  .sneaker:hover{
+    transform: scale(1.007);  
   }
 }
 
@@ -138,7 +141,7 @@
       font-family: $roboto;
       color: white;
       padding: 20px;
-      background-color: black;
+      background-color: #1a1c1d;
       border-radius: 5px;
       font-size: 30px;
       text-align: center;

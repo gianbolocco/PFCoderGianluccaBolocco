@@ -190,8 +190,8 @@
       display: flex;
       justify-content: center; }
       main .marcas-logos div img {
-        height: 50px;
-        margin: 20px; }
+        height: 70px;
+        margin: 40px; }
   main .algunos-modelos {
     display: flex;
     flex-direction: column;
@@ -475,7 +475,7 @@
     font-family: "Roboto", sans-serif;
     color: white;
     padding: 20px;
-    background-color: black;
+    background-color: #1a1c1d;
     border-radius: 5px;
     font-size: 30px;
     text-align: center; }
@@ -532,7 +532,9 @@
             background-color: #414bcf;
             color: white;
             border-radius: 10px;
-            text-decoration: none; } }
+            text-decoration: none; }
+  .sneaker:hover {
+    transform: scale(1.007); } }
 
 @media only screen and (max-width: 800px) {
   .parent {
@@ -568,7 +570,7 @@
     font-family: "Roboto", sans-serif;
     color: white;
     padding: 20px;
-    background-color: black;
+    background-color: #1a1c1d;
     border-radius: 5px;
     font-size: 30px;
     text-align: center; }

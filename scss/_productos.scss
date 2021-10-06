@@ -24,7 +24,6 @@
   .div9 { grid-area: 3 / 3 / 4 / 4; }
 
     h2{
-      width: 40%;
       margin: 20px;
       font-family: $roboto;
       color: white;
@@ -136,14 +135,13 @@
     }
 
     h2{
-      width: 40%;
       margin: 20px;
       font-family: $roboto;
-      color: white;
+      color: rgb(255, 255, 255);
       padding: 20px;
       background-color: #1a1c1d;
       border-radius: 5px;
-      font-size: 30px;
+      font-size: 20px;
       text-align: center;
     }
 

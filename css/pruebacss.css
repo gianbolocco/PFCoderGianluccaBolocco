@@ -99,15 +99,11 @@
       flex-direction: column;
       align-items: center;
       justify-content: center; }
-      .index .marcas-logos div img {
-        height: 150px;
-        width: 70%;
-        padding: 40px;
-        margin: 20px;
-        -webkit-box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.74);
-        -moz-box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.74);
-        box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.74);
-        border-radius: 3px; }
+      .index .marcas-logos div a {
+        width: 50%;
+        margin: 30px; }
+        .index .marcas-logos div a img {
+          width: 100%; }
   .index .algunos-modelos {
     display: flex;
     flex-direction: column;
@@ -150,9 +146,13 @@
           margin: 20px;
           height: 100%; }
           .index .algunos-modelos .caja .subcaja .cajazapa .subzapa {
-            margin: 20px;
+            padding: 20px;
+            background-color: #852222;
             font-family: 'Roboto', sans-serif;
-            font-size: 20px; }
+            font-size: 20px;
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 20px; }
           .index .algunos-modelos .caja .subcaja .cajazapa .imgzapa {
             width: 80%;
             height: auto;
@@ -190,8 +190,10 @@
       display: flex;
       justify-content: center; }
       main .marcas-logos div img {
-        height: 70px;
-        margin: 40px; }
+        height: 90px;
+        margin: 50px; }
+      main .marcas-logos div a:hover {
+        transform: scale(1.05); }
   main .algunos-modelos {
     display: flex;
     flex-direction: column;
@@ -233,17 +235,20 @@
           margin: 20px;
           height: 100%; }
           main .algunos-modelos .caja .subcaja .cajazapa .subzapa {
-            margin: 20px;
+            padding: 20px;
+            background-color: #852222;
             font-family: 'Roboto', sans-serif;
             font-size: 20px;
-            color: black; }
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 20px; }
           main .algunos-modelos .caja .subcaja .cajazapa .imgzapa {
             width: 80%;
             height: auto;
             background: none;
             height: 100%; }
         main .algunos-modelos .caja .subcaja .cajazapa:hover {
-          background-color: #3b3b3b; }
+          background-color: #646464; }
           main .algunos-modelos .caja .subcaja .cajazapa:hover .subzapa {
             color: white; } }
 
@@ -328,6 +333,48 @@
       font-family: "Roboto", sans-serif; }
     .nosotros img {
       width: 100px; } }
+
+form {
+  height: 60vh;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  form label {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 1px; }
+  form .principal {
+    color: #666666;
+    font-family: Arial; }
+  form textarea {
+    height: 30px;
+    border-radius: 10px;
+    background: #aaaaaa;
+    border: 2px solid #f6f6f6;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 10px;
+    color: #ffffff;
+    height: 200px;
+    width: 60%; }
+  form input {
+    height: 30px;
+    width: 70%;
+    border-radius: 10px;
+    background: #aaaaaa;
+    border: 2px solid #f6f6f6;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 10px;
+    color: #ffffff; }
+  form #submit {
+    width: 85px;
+    height: 40px;
+    border: none;
+    margin: 20px;
+    cursor: pointer; }
 
 @media only screen and (max-width: 800px) {
   .elemento .imagen-texto {
@@ -470,7 +517,6 @@
   .div9 {
     grid-area: 3 / 3 / 4 / 4; }
   h2 {
-    width: 40%;
     margin: 20px;
     font-family: "Roboto", sans-serif;
     color: white;
@@ -565,14 +611,13 @@
   .head {
     width: 100%; }
   h2 {
-    width: 40%;
     margin: 20px;
     font-family: "Roboto", sans-serif;
     color: white;
     padding: 20px;
     background-color: #1a1c1d;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center; }
   .sneaker {
     border: 1px solid #a7a7a7; }
@@ -628,3 +673,14 @@
             color: white;
             border-radius: 10px;
             text-decoration: none; } }
+
+.padre {
+  display: flex; }
+  .padre .sneaker {
+    margin: 15px; }
+
+@media only screen and (max-width: 800px) {
+  .padre {
+    flex-direction: column; }
+    .padre .sneaker {
+      margin: 20px; } }

@@ -1,0 +1,15 @@
+.padre{
+    display: flex;
+    .sneaker{
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .padre{
+        flex-direction: column;
+        .sneaker{
+            margin: 20px;
+        }
+    }
+}

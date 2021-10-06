@@ -441,7 +441,10 @@
         .elemento .imagen-texto .contenedor-texto ul .boton-comprar:hover {
           background-color: #1f1fb1; } }
 
-h2 {
+.productos .head {
+  width: 100%; }
+
+.productos h2 {
   text-align: center;
   border-radius: 5px;
   padding: 10px;
@@ -452,59 +455,67 @@ h2 {
   font-size: 40px;
   font-family: "Roboto", sans-serif; }
 
-.productos {
+.productos .marca2 {
+  background-color: #ececec; }
+
+.productos .marcas {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-  .productos .contenedor {
-    display: flex; }
-    .productos .contenedor .imagen-texto {
+  .productos .marcas .logo {
+    width: 25vh;
+    margin: 50px 50px 30px 50px; }
+  .productos .marcas .contenedor {
+    display: flex;
+    padding-bottom: 20px; }
+    .productos .marcas .contenedor .imagen-texto {
       border: 1px solid #a7a7a7;
       margin: 20px;
       text-decoration: none;
       color: black; }
-      .productos .contenedor .imagen-texto .contenedor-imagen {
+      .productos .marcas .contenedor .imagen-texto .contenedor-imagen {
         display: flex;
         justify-content: center;
-        align-items: center; }
-        .productos .contenedor .imagen-texto .contenedor-imagen img {
+        align-items: center;
+        background-color: white; }
+        .productos .marcas .contenedor .imagen-texto .contenedor-imagen img {
           width: 65%; }
-      .productos .contenedor .imagen-texto .contenedor-texto {
+      .productos .marcas .contenedor .imagen-texto .contenedor-texto {
         padding: 20px;
         display: flex;
         flex-direction: column;
         background-color: #dbdbdb; }
-        .productos .contenedor .imagen-texto .contenedor-texto ul {
+        .productos .marcas .contenedor .imagen-texto .contenedor-texto ul {
           list-style: none;
           display: flex;
           flex-direction: column; }
-          .productos .contenedor .imagen-texto .contenedor-texto ul .modelo {
+          .productos .marcas .contenedor .imagen-texto .contenedor-texto ul .modelo {
             text-align: center;
             font-size: 25px;
             padding: 10px; }
-          .productos .contenedor .imagen-texto .contenedor-texto ul .brand {
+          .productos .marcas .contenedor .imagen-texto .contenedor-texto ul .brand {
             display: flex;
             align-items: center;
             margin: 10px;
             font-size: 18px; }
-            .productos .contenedor .imagen-texto .contenedor-texto ul .brand img {
+            .productos .marcas .contenedor .imagen-texto .contenedor-texto ul .brand img {
               height: 15px; }
-          .productos .contenedor .imagen-texto .contenedor-texto ul .precio {
+          .productos .marcas .contenedor .imagen-texto .contenedor-texto ul .precio {
             font-size: 18px;
             margin: 10px; }
-          .productos .contenedor .imagen-texto .contenedor-texto ul .talles {
+          .productos .marcas .contenedor .imagen-texto .contenedor-texto ul .talles {
             font-size: 18px;
             display: flex;
             margin: 10px; }
-            .productos .contenedor .imagen-texto .contenedor-texto ul .talles ul {
+            .productos .marcas .contenedor .imagen-texto .contenedor-texto ul .talles ul {
               display: flex; }
-              .productos .contenedor .imagen-texto .contenedor-texto ul .talles ul li {
+              .productos .marcas .contenedor .imagen-texto .contenedor-texto ul .talles ul li {
                 padding: 5px;
                 border-radius: 2px;
                 background-color: gray;
                 margin: 5px; }
-          .productos .contenedor .imagen-texto .contenedor-texto ul .boton-comprar {
+          .productos .marcas .contenedor .imagen-texto .contenedor-texto ul .boton-comprar {
             text-align: center;
             padding: 10px;
             font-size: 25px;
@@ -512,5 +523,5 @@ h2 {
             color: white;
             border-radius: 10px;
             text-decoration: none; }
-    .productos .contenedor .imagen-texto:hover {
+    .productos .marcas .contenedor .imagen-texto:hover {
       transform: scale(1.007); }

@@ -1,51 +1,48 @@
-form{
-    height: 60vh;
-    width: 70%;
+
+.contacto{
+    background: rgb(87,1,1);
     display: flex;
     justify-content: center;
-    align-items: center;
+    background: linear-gradient(153deg, rgba(87,1,1,1) 0%, rgba(130,26,26,1) 23%, rgba(227,42,42,1) 69%, rgba(255,137,137,1) 94%);;
+}
+form{
+    width: 80vh;
+    background-color: white;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin: 5%;
+    padding: 25px;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 0px 26px 5px rgba(0,0,0,0.82);
+    -moz-box-shadow: 2px 0px 26px 5px rgba(0,0,0,0.82);
+    box-shadow: 2px 0px 26px 5px rgba(0,0,0,0.82);
 
-    label {
-        display:block;
-        margin-top:20px;
-        letter-spacing:1px;
-    } 
-
-    .principal {
-        color: #666666;
-        font-family:Arial;
+    label{
+        margin: 8px;
+        font-family: $roboto;
+        font-size: 20px;
+    }
+    input,textarea{
+        margin: 8px;
+        height: 80px;
+        font-family: $roboto;
+        font-size: 20px;
     }
     textarea{
-        height: 30px;
-        border-radius: 10px;
-        background:#aaaaaa;
-        border:2px solid #f6f6f6;
-        padding:10px;
-        margin-top:5px;
-        font-size:10px;
-        color:#ffffff;
-        height: 200px;
-        width: 60%;
+        height: 90px;
+        overflow: scroll;
+        resize: none;
     }
-    input{
-        height: 30px;
-        width: 70%;
+    
+    #submit{
+        background-color: #8b1010;
+        color: white;
+        font-family: $roboto;
         border-radius: 10px;
-        background:#aaaaaa;
-        border:2px solid #f6f6f6;
-        padding:10px;
-        margin-top:5px;
-        font-size:10px;
-        color:#ffffff;
+        height: 80px;
     }
-    #submit {
-        width:85px;
-        height:40px;
-        border:none;
-        margin:20px;
-        cursor:pointer;
+    #submit:hover{
+        background-color: rgb(221, 50, 50);
     }
 }
-
- 

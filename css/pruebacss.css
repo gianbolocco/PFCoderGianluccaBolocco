@@ -302,10 +302,9 @@
 @media only screen and (min-width: 800px) {
   .nosotros {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    flex-direction: row-reverse;
-    height: 65vh; }
+    justify-content: center; }
     .nosotros div {
       display: flex;
       justify-content: center;
@@ -315,14 +314,21 @@
       font-size: 30px;
       font-family: "Roboto", sans-serif; }
     .nosotros img {
-      width: 20%; } }
+      width: 20%; }
+    .nosotros h3 {
+      font-family: "Roboto", sans-serif;
+      font-size: 40px;
+      text-align: center; }
+    .nosotros video {
+      margin: 30px;
+      width: 90%; } }
 
 @media only screen and (max-width: 800px) {
   .nosotros {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    flex-direction: column-reverse; }
+    justify-content: center; }
     .nosotros div {
       display: flex;
       justify-content: center;
@@ -332,49 +338,54 @@
       font-size: 25px;
       font-family: "Roboto", sans-serif; }
     .nosotros img {
-      width: 100px; } }
+      width: 100px; }
+    .nosotros h3 {
+      font-family: "Roboto", sans-serif;
+      font-size: 30px;
+      text-align: center; }
+    .nosotros video {
+      margin: 30px;
+      width: 90%; } }
 
-form {
-  height: 60vh;
-  width: 70%;
+.contacto {
+  background: #570101;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column; }
+  background: linear-gradient(153deg, #570101 0%, #821a1a 23%, #e32a2a 69%, #ff8989 94%); }
+
+form {
+  width: 80vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5%;
+  padding: 25px;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 0px 26px 5px rgba(0, 0, 0, 0.82);
+  -moz-box-shadow: 2px 0px 26px 5px rgba(0, 0, 0, 0.82);
+  box-shadow: 2px 0px 26px 5px rgba(0, 0, 0, 0.82); }
   form label {
-    display: block;
-    margin-top: 20px;
-    letter-spacing: 1px; }
-  form .principal {
-    color: #666666;
-    font-family: Arial; }
+    margin: 8px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px; }
+  form input, form textarea {
+    margin: 8px;
+    height: 80px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px; }
   form textarea {
-    height: 30px;
-    border-radius: 10px;
-    background: #aaaaaa;
-    border: 2px solid #f6f6f6;
-    padding: 10px;
-    margin-top: 5px;
-    font-size: 10px;
-    color: #ffffff;
-    height: 200px;
-    width: 60%; }
-  form input {
-    height: 30px;
-    width: 70%;
-    border-radius: 10px;
-    background: #aaaaaa;
-    border: 2px solid #f6f6f6;
-    padding: 10px;
-    margin-top: 5px;
-    font-size: 10px;
-    color: #ffffff; }
+    height: 90px;
+    overflow: scroll;
+    resize: none; }
   form #submit {
-    width: 85px;
-    height: 40px;
-    border: none;
-    margin: 20px;
-    cursor: pointer; }
+    background-color: #8b1010;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    border-radius: 10px;
+    height: 80px; }
+  form #submit:hover {
+    background-color: #dd3232; }
 
 @media only screen and (max-width: 800px) {
   .elemento .imagen-texto {
@@ -491,6 +502,26 @@ form {
 @media only screen and (min-width: 800px) {
   .head {
     width: 100%; }
+  .brandlogos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .brandlogos h2 {
+      text-align: center;
+      border-radius: 5px;
+      padding: 10px;
+      color: white;
+      background-color: #1a1c1d;
+      width: 30vh;
+      margin: 30px 30px 0px 30px; }
+    .brandlogos div {
+      display: flex;
+      justify-content: center; }
+      .brandlogos div img {
+        height: 90px;
+        margin: 50px; }
+      .brandlogos div a:hover {
+        transform: scale(1.05); }
   .parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -583,6 +614,19 @@ form {
     transform: scale(1.007); } }
 
 @media only screen and (max-width: 800px) {
+  .brandlogos {
+    display: flex;
+    flex-direction: column; }
+    .brandlogos div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .brandlogos div a {
+        width: 50%;
+        margin: 30px; }
+        .brandlogos div a img {
+          width: 100%; }
   .parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
